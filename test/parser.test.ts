@@ -1,6 +1,7 @@
 import { it } from 'vitest';
 
 import {
+	type TokenPosition,
 	alt,
 	buildLexer,
 	buildParser,
@@ -11,7 +12,6 @@ import {
 	rule_ignore,
 	seq,
 	tok,
-	type TokenPosition,
 } from '../src';
 
 // biome-ignore lint/style/useEnumInitializers:

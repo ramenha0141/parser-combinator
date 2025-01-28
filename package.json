@@ -1,5 +1,6 @@
 {
 	"name": "@ramenha0141/parser-combinator",
+	"version": "1.0.0",
 	"type": "module",
 	"scripts": {
 		"build": "tsup",
@@ -28,5 +29,6 @@
 	},
 	"peerDependencies": {
 		"typescript": "^5.0.0"
-	}
+	},
+	"files": ["dist", "README.md"]
 }
